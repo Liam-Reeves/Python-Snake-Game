@@ -53,6 +53,9 @@ class Snake:
             self.squares.append(square)
 
 
+# Program imekataa kutoka hapa mazee need help.....
+
+
 class Food:
     def __int__(self):
         x = random.randint(0, (GAME_WIDTH / SPACE_SIZE) - 1) * SPACE_SIZE
